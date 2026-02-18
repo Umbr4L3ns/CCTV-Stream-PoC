@@ -1,0 +1,16 @@
+{
+    "profiles": [
+        {
+            "vendor": "Axis_Municipal_V2",
+            "rtsp_port": 554,
+            "api_endpoint": "/api/v1/stream/override",
+            "fallback_token_b64": "ZGVmYXVsdF9ndWVzdF9zZXNzaW9uX2tleQ=="
+        },
+        {
+            "vendor": "Hikvision_Legacy",
+            "rtsp_port": 8554,
+            "api_endpoint": "/ISAPI/System/Video/inputs",
+            "fallback_token_b64": "YWRtaW46MTIzNDU="
+        }
+    ]
+}
